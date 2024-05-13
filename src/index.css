@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  /* min-width: 100vw; */
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* .index {
+  width: 90%;
+  margin: auto;
+} */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
